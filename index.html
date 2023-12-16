@@ -1,0 +1,369 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title> Interbots | Roblox Developer </title>
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Interbots | Roblox Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content=" 5+ years of roblox developing. " />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-color-main name"> int </span>.
+          <br />
+          Scripting on roblox for the past 5 years.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              id="profile-image"
+              class="img-fluid"
+              src="./assets/isCircular.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              As a seasoned Roblox scripter with a rich five-year journey in the virtual realms,
+              I am Johnny Andrews, also known as interbots.
+              My expertise in Roblox scripting has not only shaped my proficiency in game development but has also served as a launchpad
+              into diverse realms of programming.
+            </p>
+            <p class="about-wrapper__info-text">
+              My journey as a Roblox scripter extends across a diverse spectrum,
+              enabling me to navigate seamlessly through various facets of Roblox development.
+              Whether it's creating intricate game mechanics or devising efficient backend systems, 
+              I thrive in the versatility demanded by the Roblox platform.
+              Beyond this adaptability, my coding agility is a hallmark of my approach.
+              I take pride in my ability to swiftly translate ideas into lines of code,
+              ensuring rapid and efficient development without compromising on quality.
+              In the dynamic landscape of Roblox scripting, I am not just a coder;
+              I am a swift architect of digital realms.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#projects" class="cta-btn cta-btn--resume">View Examples</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Brick Breaking Demo</h3>
+              <p class="project-wrapper__text-info">
+                This is a prototype I made for a game , I've used two classes , the block and ball class which
+                has its physics calculated each frame.
+              </p>
+              
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <iframe class="youtube-iframe" width="700" height="500"
+                  src="https://www.youtube.com/embed/V-D0wDOcL48?autoplay=1&mute=1&loop=1">
+                  </iframe>
+                 
+                </div>
+              </a>
+            </div>
+            
+          </article>
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Outfit Loading</h3>
+              <p class="project-wrapper__text-info">
+                I've used my own proxy for this , just fetching avatar info from the roblox api 
+                and loading it onto the character's appearence.
+              </p>
+              
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <iframe class="youtube-iframe" width="700" height="500"
+                  src="https://www.youtube.com/embed/StUUEm0i5AY?autoplay=1&mute=1&loop=1">
+                  </iframe>
+                 
+                </div>
+              </a>
+            </div>
+            
+          </article>
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Door System</h3>
+              <p class="project-wrapper__text-info">
+                Modular door system with a couple of functionalities, knocking , kicking ,
+                directional opening and closing.After the door is broken it respawns after a set
+                period of time.
+              </p>
+              
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <iframe class="youtube-iframe" width="700" height="500"
+                  src="https://www.youtube.com/embed/6BMV4hBAp-0?autoplay=1&mute=1&loop=1">
+                  </iframe>
+                 
+                </div>
+              </a>
+            </div>
+            
+          </article>
+
+
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Move Tool</h3>
+            <p class="project-wrapper__text-info">
+              Move tool system I made an alternative to building tools fx moving.Made this for a obby creator game
+            </p>
+            
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <iframe class="youtube-iframe" width="700" height="500"
+                src="https://www.youtube.com/embed/pxyBWBqvmiU?autoplay=1&mute=1&loop=1">
+                </iframe>
+               
+              </div>
+            </a>
+          </div>
+          
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Statue Puzzle System</h3>
+            <p class="project-wrapper__text-info">
+              Solve the puzzle by pushing the statue on the pads in the correct order.
+            </p>
+            
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <iframe class="youtube-iframe" width="700" height="500"
+                src="https://www.youtube.com/embed/Thn6_5G6oJM?autoplay=1&mute=1&loop=1">
+                </iframe>
+               
+              </div>
+            </a>
+          </div>
+          
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Inverse Kinematics</h3>
+            <p class="project-wrapper__text-info">
+              Inverse kinematics system using the fabrik method.Have turned this into my own module for creating and handling ik arms.
+            </p>
+
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <iframe class="youtube-iframe" width="700" height="500"
+                src="https://www.youtube.com/embed/3a_ZcqT546E?autoplay=1&mute=1&loop=1">
+                </iframe>
+               
+              </div>
+            </a>
+          </div>
+          
+        </article>
+
+        <script>
+          // Function to replay all YouTube iframes with the class "youtube-iframe"
+          function replayAllIframes() {
+            console.log(111111)
+
+            var iframes = document.getElementsByClassName('youtube-iframe');
+        
+            for (var i = 0; i < iframes.length; i++) {
+              var iframe = iframes[i];
+              var iframeSrc = iframe.src;
+        
+              // Reload the iframe to replay the video
+              iframe.src = '';
+              iframe.src = iframeSrc;
+        
+              // Add an event listener for the YouTube Player API state change event
+              iframe.addEventListener('load', function () {
+                this.contentWindow.addEventListener('YTPlayerStateChange', function (event) {
+                  if (event.data === 0) {  // Video ended
+                    // Reload the iframe to replay the video
+                    console.log(111111)
+                    this.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                  }
+                });
+              });
+            }
+          }
+        
+          // Call the function to replay all iframes (you can trigger this event based on user interaction or other criteria)
+          replayAllIframes();
+        </script>
+
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">You can contact me via discord @int3263</p>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+       
+        <hr />
+        
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
